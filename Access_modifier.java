@@ -19,8 +19,8 @@ public class Access_modifier {
     public static void main(String[] args) {
         MyEmployee person = new MyEmployee();
         // person.id = 45;
-        // person.name = "Priyanshu Baral"; --> Throws an error due to private access modifier
-        person.setName("Priyanshu Baral");
+        // person.name = "Harsh Vashishtha"; --> Throws an error due to private access modifier
+        person.setName("Harsh Vashishtha");
         System.out.println(person.getName());
         person.setId(1001);
         System.out.println(person.getId());
