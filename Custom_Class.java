@@ -14,20 +14,20 @@ class Employee{
 public class Custom_Class {
     public static void main(String[] args) {
         Employee Abhishek = new Employee();
-        Employee Ashish = new Employee();
+        Employee Aman = new Employee();
 
         Abhishek.id = 1001;
         Abhishek.salary = 40;
         Abhishek.name = "Abhishek";
-        Ashish.id = 1002;
-        Ashish.salary = 35;
-        Ashish.name = "Ashish";
+        Aman.id = 1002;
+        Aman.salary = 35;
+        Aman.name = "Aman";
 
         Abhishek.getDetails();
         System.out.println("Salary is "+Abhishek.getSalary()+"K");
         System.out.println();
-        Ashish.getDetails();
-        System.out.println("Salary is "+Ashish.getSalary()+"K");
+        Aman.getDetails();
+        System.out.println("Salary is "+Aman.getSalary()+"K");
 
     }
 }
