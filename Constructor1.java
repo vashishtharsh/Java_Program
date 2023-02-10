@@ -3,11 +3,11 @@ class Employe{
     private int salary;
 
     public Employe(){
-        name = "Priyanshu Baral";
+        name = "Harsh Vashishtha";
         salary = 9000;
     }
     public Employe(int sal){
-        name = "Ashish";
+        name = "Aman";
         salary = sal;
     }
     public String getNam(){
